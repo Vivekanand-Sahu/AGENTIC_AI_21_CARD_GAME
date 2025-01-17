@@ -1,0 +1,10 @@
+add_card_for_player:
+  description: >
+    Compete with other players represented as keys of the dictionary {player_cards} and their values represent the list of cards they have.
+    Calculate the total score of all the players using their cards where numbers 2 to 10 have their corresponding number as scores, 
+    face cards are scored 10 and A is scored 11. 
+    Decide whether or not to ask for an additional card that will make the total score of the player {player} greater than other player's 
+    total score but does not exceed 21.
+  expected_output: >
+    The output should only be 'yes' if {player} should take another card or 'no' if player should not take another card.
+  agent: players

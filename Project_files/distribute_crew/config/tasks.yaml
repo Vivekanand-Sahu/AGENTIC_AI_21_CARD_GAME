@@ -1,0 +1,8 @@
+distribute_cards:
+  description: >
+    Randomly generate 2 cards from a deck for all the players represented as keys of the dictionary {player_cards}. 
+  expected_output: >
+    An updated dictionary containing the list of cards for all the players in the dictionary. 
+    The cards should be represented by numbers as '2' or faces as 'K' and ace as 'A'. 
+    The output should contain only the updated dictionary and no additional text. 
+  agent: game_host
