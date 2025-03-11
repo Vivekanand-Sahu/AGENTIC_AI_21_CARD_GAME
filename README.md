@@ -14,6 +14,9 @@
 - Achieve the highest total score under or equal to 21.  
 - If all players exceed 21, no winner is declared.  
 
+<img width="683" alt="image" src="https://github.com/user-attachments/assets/206e1e5b-3e33-45b4-ac95-6668ce62ae44" />
+
+
 ### **Players:**  
 - **User:** Plays with AI Agents.  
 - **3 AI Agents:** LLM models act as players and make smart moves.  
